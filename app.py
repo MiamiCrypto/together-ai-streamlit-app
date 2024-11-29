@@ -4,8 +4,6 @@ import os
 from together import Together
 
 os.environ['TOGETHER_API_KEY'] = st.secrets['TOGETHER_API_KEY']
-# Access the API key via attribute-style notation
-# os.environ['TOGETHER_API_KEY'] = st.secrets.TOGETHER_API_KEY
 
 # Initialize Together client
 client = Together()
